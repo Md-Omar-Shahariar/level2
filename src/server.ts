@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
-import app from "./app.ts";
+
 import config from "./config/index.ts";
+import app from "./app.ts";
 
 bootStrap().catch((err) => console.log(err));
 const port = 3000;
